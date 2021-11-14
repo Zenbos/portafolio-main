@@ -93,18 +93,20 @@ p3{
     color: #94ddf0;
     font-family: 'Cherry Swash',cursive;
     font-size: 20px; 
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 5px #000000;
    line-height: 20px;
    
 }
+
 p4{
-    position: absolute,top;    
+    position: absolute,top;
+	margin: 0 auto;    
     text-align: center;
     color: #94ddf0;
     font-family: 'Cherry Swash',cursive;
     font-size: 20px; 
     text-shadow: 2px 2px 4px #000000;
-   line-height: 00¿¿px; 
+   
 }
 
 p1 {
@@ -116,16 +118,12 @@ p1 {
     font-family: 'Cherry Swash',cursive;
     font-size: 16px;
 }
-p2 {
-    position: sticky;
-    bottom: 20px;
-    width: 100%;
-    text-align: center;
-    color: #ecf0f1;
-    font-family: 'Cherry Swash',cursive;
-    font-size: 16px;
-  
+
+div.redes{
+	background-color: #000000;
+	padding: 50px 50px;
 }
+
 
 span {
     color: #2BD6B4;
