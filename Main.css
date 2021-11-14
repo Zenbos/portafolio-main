@@ -87,12 +87,24 @@ h1 {
 	text-shadow: 2px 2px 4px #000000;
 	font-family: 'Cherry Swash', cursive;
 }
-p3{
-    position: absolute,top;
+p3{    
+    position: absolute,top;    
     text-align: center;
     color: #94ddf0;
     font-family: 'Cherry Swash',cursive;
     font-size: 20px; 
+    text-shadow: 2px 2px 4px #000000;
+   line-height: 20px;
+   
+}
+p4{
+    position: absolute,top;    
+    text-align: center;
+    color: #94ddf0;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 20px; 
+    text-shadow: 2px 2px 4px #000000;
+   line-height: 00¿¿px; 
 }
 
 p1 {
