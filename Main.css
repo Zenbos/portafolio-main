@@ -119,10 +119,25 @@ p1 {
     font-family: 'Cherry Swash',cursive;
     font-size: 16px;
 }
+footer{
+	display: block;
 
+}
+/*
+background-color:
+width: 100%
+*/
 div.redes{
+	margin: top;
 	background-color: #000000;
-	padding: 100px 40px;
+	padding: 100px 40px 100px;
+}
+*,
+*::before
+*::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 
