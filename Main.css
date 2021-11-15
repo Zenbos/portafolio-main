@@ -111,8 +111,8 @@ p4{
 }
 
 p1 {
-    position: absolute;
-    bottom: 20px;
+    position: relative;
+    bottom: 150px;
     width: 100%;
     text-align: center;
     color: #ecf0f1;
@@ -128,6 +128,7 @@ background-color:
 width: 100%
 */
 div.redes{
+	position: static;
 	margin: top;
 	background-color: #000000;
 	padding: 100px 40px 100px;
