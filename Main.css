@@ -1,3 +1,5 @@
+
+/*barra de nav*/
 nav {
 	margin: 27px auto 0;
 
@@ -8,6 +10,8 @@ nav {
 	border-radius: 8px;
 	font-size: 0;
 }
+
+
 nav a {
 	line-height: 50px;
 	height: 100%;
@@ -133,19 +137,14 @@ div.redes{
 	margin: top;
 	background-color: #000000;
 	padding: 100px 200px 200px;
-}
-*,
-*::before
-*::after{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	text-align: center;
+	font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+	bottom: 200px;
+
 }
 
 
 span {
     color: #2BD6B4;
-}
-span2 {
-color: springgreen;
 }
