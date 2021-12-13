@@ -10,7 +10,7 @@ nav {
 	border-radius: 8px;
 	font-size: 0;
 }
-
+/*botones de nav*/
 
 nav a {
 	line-height: 50px;
@@ -25,6 +25,9 @@ nav a {
 	color: white;
 	cursor: pointer;
 }
+
+/*Animaciones del nav*/
+
 nav .animation {
 	position: absolute;
 	height: 100%;
@@ -33,14 +36,32 @@ nav .animation {
 	transition: all .5s ease 0s;
 	border-radius: 8px;
 }
+/*Animaciones del nav boton 1 */
 a:nth-child(1) {
 	width: 100px;
 }
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #29e0bc;
+}
+/*Animaciones del nav boton 2 */
 a:nth-child(2) {
 	width: 110px;
 }
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e7301b;
+}
+/*Animaciones del nav boton 3 */
 a:nth-child(3) {
 	width: 100px;
+}
+nav .start-contact, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #1b91df;
 }
 /*
 a:nth-child(4) {
@@ -50,21 +71,9 @@ a:nth-child(5) {
 	width: 120px;
 }
 */
-nav .start-home, a:nth-child(1):hover~.animation {
-	width: 100px;
-	left: 0;
-	background-color: #29e0bc;
-}
-nav .start-about, a:nth-child(2):hover~.animation {
-	width: 110px;
-	left: 100px;
-	background-color: #e7301b;
-}
-nav .start-contact, a:nth-child(3):hover~.animation {
-	width: 100px;
-	left: 210px;
-	background-color: #1b91df;
-}
+
+
+
 /*
 nav .start-portefolio, a:nth-child(4):hover~.animation {
 	width: 160px;
@@ -84,7 +93,7 @@ body {
 }
 h1 {
 	text-align: center;
-	margin: 40px 0 40px;
+	margin: 40px 0 40px ;
 	text-align: center;
 	font-size: 40px;
 	color: #ecf0f1;
@@ -127,6 +136,7 @@ p1 {
 footer{
 	display: block;
 
+
 }
 /*
 background-color:
@@ -144,7 +154,26 @@ div.redes{
 
 }
 
+div.Home{
+	width: 100%;
+	height: 57vw;
+	background:#e7301b;
 
+}
+
+div.About{
+	width: 100%;
+	height: 50vw;
+	background:rgba(51, 0, 190, 0.849);
+
+}
+
+div.Contact {
+	width: 100%;
+	height: 50vw;
+	background:rgb(65, 250, 136);
+
+}
 span {
     color: #2BD6B4;
 }
