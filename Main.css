@@ -1,10 +1,12 @@
 
 /*barra de nav*/
 nav {
-	margin: 27px auto 0;
-
+	/*margin: 100px auto 0;*/
+	/* margin: auto; esto es lo que hace que la barra de navegaciom este en el medio */
+	margin: auto;
 	position: relative;
-	width: 310px;
+	/* width: 710px; */
+	width: 50%;
 	height: 50px;
 	background-color: #34495e;
 	border-radius: 8px;
@@ -26,14 +28,14 @@ nav a {
 	cursor: pointer;
 }
 
-/*Animaciones del nav*/
+/*Animaciones del nav de la barrita de colores*/
 
 nav .animation {
 	position: absolute;
-	height: 100%;
+	height: 100%; /*tambien se puede poner en 10 porciento */
 	top: 0;
 	z-index: 0;
-	transition: all .5s ease 0s;
+	transition: all .2s ease 0s;
 	border-radius: 8px;
 }
 /*Animaciones del nav boton 1 */
@@ -157,21 +159,21 @@ div.redes{
 div.Home{
 	width: 100%;
 	height: 57vw;
-	background:#e7301b;
+	background:#1a2530;
 
 }
 
 div.About{
 	width: 100%;
 	height: 50vw;
-	background:rgba(51, 0, 190, 0.849);
+	background:#1a2530;
 
 }
 
 div.Contact {
 	width: 100%;
 	height: 50vw;
-	background:rgb(65, 250, 136);
+	background:#1a2530;
 
 }
 span {
